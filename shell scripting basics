@@ -10,4 +10,13 @@ Role of shell script in devops:
 -Code repository management
 -Configuration management
 
+Commonly used operators in shell scripting:
+> This redirect the output in a file. It overwrites the previous content if present.
+>> This redirect the output in a file. Also known as append operator. Append new content at the end of the file.
+<<< This is called here string. It passes a string as input to a command.
+command <<< "your string"
+cat <<< "This is a line of text."
+echo -e "HE\nIAM" To print new line
+
+
 
